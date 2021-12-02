@@ -10,7 +10,7 @@
                 "value": "*"
             },
             "name": "default",
-            "policy_id": "48e6f7d6-1765-11e9-b5f9-8b6f228548b6",
+            "policy_id": "48e6f7d6-1765-11e8-b5f9-8b6f228548b6",
             "registry": "*",
             "repository": "*",
             "whitelist_ids": [
