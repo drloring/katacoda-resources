@@ -126,7 +126,26 @@
         {
             "comment": "Default global whitelist",
             "id": "37fd763e-1765-11e8-add4-3b16c029ac5c",
-            "items": [],
+            "items": [
+                {
+                    "gate": "vulnerabilities",
+                    "id": "item1",
+                    "trigger": "package",
+                    "trigger_id": "ELSA-2021-2170*"
+                },
+                {
+                    "gate": "vulnerabilities",
+                    "id": "item2",
+                    "trigger": "package",
+                    "trigger_id": "CVE-2021-22118*"
+                },
+                {
+                    "gate": "vulnerabilities",
+                    "id": "item3",
+                    "trigger": "package",
+                    "trigger_id": "ELSA-2021-2717*"
+                }
+            ],
             "name": "Global Whitelist",
             "version": "1_0"
         }
