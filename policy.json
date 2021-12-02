@@ -26,7 +26,7 @@
             "name": "DefaultPolicy",
             "rules": [
                 {
-                    "action": "STOP",
+                    "action": "WARN",
                     "gate": "dockerfile",
                     "id": "ce7b8000-829b-4c27-8122-69cd59018400",
                     "params": [
