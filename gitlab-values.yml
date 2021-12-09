@@ -1,8 +1,2 @@
 gitlabUrl: https://gitlab.com
 runnerRegistrationToken: zF3q34LuyaV8yF44nyz8
-
-runners:
-  config: |
-    [[runners]]
-      [runners.kubernetes]
-        image = "ubuntu:16.04"
