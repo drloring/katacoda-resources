@@ -7,9 +7,6 @@ spec:
     spec:
       names:
         kind: RequiredLabels
-        listKind: RequiredLabelsList
-        plural: requiredlabels
-        singular: requiredlabels
       validation:
         # Schema for the `parameters` field in the constraint
         openAPIV3Schema:
