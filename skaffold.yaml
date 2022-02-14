@@ -2,7 +2,9 @@ apiVersion: skaffold/v2beta26
 kind: Config
 build:
   artifacts:
-    - image: java-ws 
+    - image: java-ws
+      #custom:
+      #  buildCommand: mvn compile jib:dockerBuild
 deploy:
   helm:
     releases:
