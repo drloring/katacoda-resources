@@ -7,7 +7,7 @@ deploy:
   helm:
     releases:
     - name: ws
-	  chartPath: ws
+      chartPath: ws
       artifactOverrides:
         image: java-ws 
       imageStrategy:
