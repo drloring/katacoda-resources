@@ -1,0 +1,14 @@
+apiVersion: skaffold/v2beta26 
+kind: Config
+build:
+  artifacts:
+    - image: java-ws 
+deploy:
+  helm:
+    releases:
+    - name: ws
+	  chartPath: ws
+      artifactOverrides:
+        image: java-ws 
+      imageStrategy:
+        helm: {}
